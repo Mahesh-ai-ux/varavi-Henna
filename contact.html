@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Contact Varavi MakeUp Henna Artist — Book Varalakshmi for bridal makeup, Mehandi &amp; saree draping in Chennai."/>
+  <title>Contact &amp; Book — Varavi MakeUp Henna Artist</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
+</head>
+<body>
+  <div class="page-hero">
+    <div class="container">
+      <div class="tag tag-c tag-lt">Get In Touch</div>
+      <h1 class="h2 h2-w">Book Your <em>Consultation</em></h1>
+      <nav class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Contact</span></nav>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <aside class="contact-info reveal-l">
+          <div class="tag">Reach Out</div>
+          <h2 class="h2-sm">Let's Create Your <em>Perfect Look</em></h2>
+          <div class="divider"></div>
+          <p class="body-p">Whether it's a bridal trial, a last-minute event, or just an enquiry — I'd love to hear from you. Fill in the form and I'll reply within 24 hours.</p>
+          <div id="js-details"></div>
+          <div class="c-social">
+            <p class="c-social-lbl">Follow &amp; Connect</p>
+            <div id="js-socials"></div>
+          </div>
+        </aside>
+        <div class="contact-form-wrap reveal-r">
+          <form class="c-form" id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-lbl" for="f-name">Your Name <span class="req">*</span></label>
+                <input class="form-inp" id="f-name" name="name" type="text" placeholder="Full name" required/>
+                <span class="form-err" id="err-name"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-lbl" for="f-phone">Phone / WhatsApp <span class="req">*</span></label>
+                <input class="form-inp" id="f-phone" name="phone" type="tel" placeholder="+91 00000 00000" required/>
+                <span class="form-err" id="err-phone"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-lbl" for="f-email">Email Address</label>
+                <input class="form-inp" id="f-email" name="email" type="email" placeholder="you@email.com"/>
+                <span class="form-err" id="err-email"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-lbl" for="f-date">Event Date</label>
+                <input class="form-inp" id="f-date" name="date" type="date"/>
+              </div>
+              <div class="form-group form-full">
+                <label class="form-lbl" for="f-service">Service Interested In <span class="req">*</span></label>
+                <select class="form-sel" id="f-service" name="service" required>
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="bridal">Bridal Makeup Artist</option>
+                  <option value="southasian">South Asian Bridal</option>
+                  <option value="glam">Celebrity &amp; Party Glam</option>
+                  <option value="henna">Custom Mehandi / Henna</option>
+                  <option value="saree">Expert Saree &amp; Dhoti Draping</option>
+                  <option value="package">Full Bridal Package</option>
+                </select>
+                <span class="form-err" id="err-service"></span>
+              </div>
+              <div class="form-group form-full">
+                <label class="form-lbl" for="f-msg">Tell Me About Your Vision</label>
+                <textarea class="form-txt" id="f-msg" name="message" rows="5" placeholder="Describe your event, inspiration, any special requests…"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-gold form-submit" id="js-submit">Send Enquiry →</button>
+            <div class="form-success" id="js-success" hidden>✅ Thank you! I'll be in touch within 24 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="map-section">
+    <div class="map-overlay">
+      <div class="tag tag-c tag-lt">Find Us</div>
+      <h2 class="h2 h2-w" id="js-map-h"></h2>
+      <a id="js-map-link" href="#" target="_blank" rel="noopener" class="btn btn-white" style="margin-top:2rem">Open in Google Maps</a>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

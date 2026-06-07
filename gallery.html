@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Portfolio — Varavi MakeUp Henna Artist. Bridal, South Asian, Mehandi, Glam &amp; Saree Draping by Varalakshmi, Chennai."/>
+  <title>Gallery — Varavi MakeUp Henna Artist</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/gallery.css"/>
+</head>
+<body>
+  <div class="page-hero">
+    <div class="container">
+      <div class="tag tag-c tag-lt">Our Work</div>
+      <h1 class="h2 h2-w">Beauty <em>Portfolio</em></h1>
+      <nav class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Gallery</span></nav>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="bridal">Bridal</button>
+        <button class="filter-btn" data-filter="southasian">South Asian</button>
+        <button class="filter-btn" data-filter="henna">Mehandi</button>
+        <button class="filter-btn" data-filter="glam">Glam</button>
+        <button class="filter-btn" data-filter="saree">Saree</button>
+      </div>
+      <div class="gallery-grid" id="js-gallery"></div>
+      <p class="gallery-count" id="js-count" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="section-sm ig-cta">
+    <div class="container" style="text-align:center">
+      <span style="font-size:2.8rem;display:block;margin-bottom:1rem">📸</span>
+      <div class="tag tag-c tag-lt">More on Instagram</div>
+      <h2 class="h2 h2-w">Follow <em>@<span id="js-ig-handle"></span></em></h2>
+      <p style="color:rgba(255,255,255,.5);font-size:.87rem;margin:1.2rem auto 2.2rem;max-width:380px">New looks and behind-the-scenes posted regularly.</p>
+      <a id="js-ig-link" href="#" target="_blank" rel="noopener" class="btn btn-white">Open Instagram</a>
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+    <button class="lb-prev"  id="lb-prev"  aria-label="Previous">‹</button>
+    <div class="lb-inner">
+      <img id="lb-img" src="" alt=""/>
+      <p class="lb-caption" id="lb-caption"></p>
+    </div>
+    <button class="lb-next" id="lb-next" aria-label="Next">›</button>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
