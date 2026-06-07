@@ -39,11 +39,11 @@ const SITE = {
 
   /* ── CONTACT ← UPDATE THESE ── */
   contact: {
-    phone:     "+91 99999 99999",
-    whatsapp:  "919999999999",
+    phone:     "+1 (201) 724-3534",
+    whatsapp:  "+1 (201) 724-3534",
     email:     "varavimakeup@gmail.com",
     instagram: "varavimakeuphennaartist",
-    location:  "Chennai, Tamil Nadu, India",
+    location:  "Tampa, United States, India",
     hours:     "Monday – Sunday  ·  9:00 AM – 8:00 PM",
     mapLink:   "https://maps.google.com",
   },
